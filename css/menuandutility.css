@@ -1,0 +1,179 @@
+
+/* Utility */
+.img-link{
+    cursor: pointer;
+}
+
+/* Hide scrollbar */
+.hide-scroll{
+    scrollbar-width: none;
+}
+.hide-scroll::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+
+/* Additional widths */
+.w-95{
+    width: 95%;
+}
+.w-90{
+    width: 90%;
+}
+.w-85{
+    width: 85%;
+}
+.w-80{
+    width: 80%;
+}
+.w-70{
+    width: 70%;
+}
+.w-65{
+    width: 65%;
+}
+.w-60{
+    width: 60%;
+}
+.w-55{
+    width: 55%;
+}
+.w-45{
+    width: 45%;
+}
+.w-40{
+    width: 40%;
+}
+.w-35{
+    width: 35%;
+}
+.w-30{
+    width: 30%;
+}
+.w-20{
+    width: 20%;
+}
+.w-15{
+    width: 15%;
+}
+.w-10{
+    width: 10%;
+}
+.w-5{
+    width: 5%;
+}
+
+
+/* Main Menu/nav */
+/* Utility */
+/* Translate y classes for main menu */
+.mm-unmoved{
+    transform: translateY(-6vh);
+    transition: 300ms ease-in-out;
+}
+.mm-move{
+    transition: 300ms ease-in-out;
+    transform: translateY(6vh);
+}
+.mmb-hide{
+    transform: translateX(-10rem);
+}
+.mmb-show{
+    transform: translateX(10rem);
+}
+
+#menu-main{
+    transition: 300ms ease-in-out;
+    height: 6vh;
+}
+
+/* Close button */
+
+
+#menu-close #menu-close-container{
+    min-height: 3rem;
+    width: 3rem;
+    cursor: pointer;
+    transition: 300ms ease-in-out;
+}
+/* Adding styles for translating the button left */
+#menu-close-container #menu-close{
+    transition: 300ms ease-in-out;
+}
+
+/* Creating the button and animation */
+#menu-close-container #menu-close-icon-border,
+#menu-close-container #menu-close-icon-border-2{
+    width: 1.5rem;
+    min-height: 3rem;
+}
+
+#menu-close-container #menu-close-icon-bar,
+#menu-close-container #menu-close-icon-bar-2{
+    margin-left: -0.1rem;
+    width: 1.5rem;
+    height: 3rem;
+    transition: 300ms ease-in-out;
+}
+/* Menu close transition */
+#menu-close-container:hover #menu-close-icon-bar,
+#menu-close-container:hover #menu-close-icon-bar-2{
+    height: 1rem;
+}
+
+
+/* Container for open button */
+#menu-open-container{
+    min-height: 3rem;
+    width: 3rem;
+    cursor: pointer;
+    transition: 300ms ease-in-out;
+}
+
+/* Adding styles for translating the button left */
+#menu-open-container #menu-open{
+    transition: 300ms ease-in-out;
+}
+
+/* Creating the button and animation */
+#menu-open-container #menu-open-icon-border,
+#menu-open-container #menu-open-icon-border-2{
+    width: 1.5rem;
+    min-height: 3rem;
+}
+#menu-open-container #menu-open-icon-bar{
+    margin-left: -0.15rem;
+}
+
+
+#menu-open-container #menu-open-icon-bar,
+#menu-open-container #menu-open-icon-bar-2{
+    width: 1.5rem;
+    height: 1rem;
+    transition: 300ms ease-in-out;
+}
+/* Menu open transition */
+#menu-open-container:hover #menu-open-icon-bar,
+#menu-open-container:hover #menu-open-icon-bar-2{
+    height: 3rem;
+}
+
+/* Menu content */
+.mm-link:hover{
+    color: slategray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

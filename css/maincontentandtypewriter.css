@@ -1,0 +1,36 @@
+
+/* Typewriter */
+#typeWriter-wrapper{
+    position: absolute;
+    height: 10rem;
+    bottom: 0;
+}
+
+
+/* Zoom */
+.zoom-hover{
+    transition: transform .1s;
+}
+
+.zoom-hover:hover{
+    transform: scale(1.05);
+}
+
+/* Landing screen */
+#landing{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+/* Landing screen opacity */
+#landing::after{
+    content: "";
+    background: #333 url('../img/landing-page.jpg') no-repeat center center / cover;
+    opacity: .85;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
